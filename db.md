@@ -1,8 +1,8 @@
-#Tabella Concessionario Auto Boolean
+# Tabella Concessionario Auto Boolean
 
-##Cars
+## Table Name: Cars
 
-|id_car | brand | cv | power supply | trasmission | traction | emission class | color |
+|id_car BIGINT PK AI NOTNULL UNIQUE | brand | cv | power supply | trasmission | traction | emission class | color |
 |-------|-------|----|--------------|-------------|----------|----------------|-------|
 |       |       |    |              |             |          |                |       |
 |       |       |    |              |             |          |                |       |
